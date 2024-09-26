@@ -24,12 +24,14 @@
     overflow: scroll;
 }
 
+
+
 .explore-menu-list::-webkit-scrollbar{
     display: none;
 }
 
 .explore-menu-list-item img{
-    width: 7.5vw;
+    width: 8.5vw;
     min-width: 80px;
     cursor: pointer;
     border-radius: 50%;

@@ -7,10 +7,9 @@ const Header = () => {
       <div className="header-contents">
         <h2>So speedy, so savory, so tasty.</h2>
         <p>
-          FoodFlare brings a variety of
-          cuisines right to your doorstep, ensuring fast, reliable, and
-          delicious service with just a few clicks.
+        तपाईंको मनपर्ने खाना तुरुन्तै घरमै। स्वादिलो खाना, छिटो सेवा!
         </p>
+       
         <button>View Menu</button>
       </div>
     </div>
