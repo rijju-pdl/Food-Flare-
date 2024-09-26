@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
+const uri ="enter your mongoDB uri here";
 
 export const connectDB = async () => {
   await mongoose
     .connect(
-     "mongodb+srv://rezzusharma:rijju7996@cluster0.rxb4x.mongodb.net/FoodFlare"
-    )
+     uri,
     .then(() => {
       console.log("DB connected");
     });
